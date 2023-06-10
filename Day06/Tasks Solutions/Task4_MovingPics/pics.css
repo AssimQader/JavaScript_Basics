@@ -1,0 +1,39 @@
+#Box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+}
+
+#img1 {
+    top: 0;
+    left: 225px;
+}
+
+#img2 {
+    right: 0;
+}
+
+#img3 {
+    left: 0;
+}
+
+#counter {
+
+    width: 300px;
+    height: fit-content;
+}
+
+button {
+    height: 25px;
+    width: 120px;
+    margin: 20px;
+}
